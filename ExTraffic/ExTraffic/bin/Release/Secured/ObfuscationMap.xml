@@ -1,0 +1,796 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CliSecure Version="5.3.2.3" Time="21/12/2012 10:19:30 PM">
+  <Module N="ExTraffic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+  <Type N="&lt;Module&gt;" />
+  <Type N="ExTraffic.My.MyApplication">
+    <Method N="Void Main(String[] Args)" />
+    <Method N="Void .ctor()" />
+    <Method N="Void OnCreateMainForm()" />
+  </Type>
+  <Type N="ExTraffic.My.MyComputer">
+    <Method N="Void .ctor()" />
+  </Type>
+  <Type N="ExTraffic.My.MyProject">
+    <Method N="Void .cctor()" />
+  </Type>
+  <Type N="ExTraffic.My.MyProject+MyForms" ON="ExTraffic.My.MyProject+oRM=">
+    <Property N="FRMMain" ON="pxM=">
+      <Getter N="ExTraffic.FRMMain get_FRMMain()" ON="qBM=" />
+      <Setter N="Void set_FRMMain(ExTraffic.FRMMain Value)" ON="qRM=" />
+    </Property>
+    <Method N="!0 Create__Instance__(T Instance)" ON="qxM=" />
+    <Method N="Void Dispose__Instance__(!0&amp; instance)" ON="rRM=" />
+    <Method N="Void .ctor()" />
+    <Method N="Boolean Equals(Object o)" />
+    <Method N="Int32 GetHashCode()" />
+    <Method N="System.Type GetType()" ON="rxM=" />
+    <Method N="String ToString()" />
+    <Field N="m_FRMMain" ON="ohM=" />
+    <Field N="m_FormBeingCreated" ON="oxM=" />
+  </Type>
+  <Type N="ExTraffic.My.MyProject+MyWebServices" ON="ExTraffic.My.MyProject+sBM=">
+    <Method N="Boolean Equals(Object o)" />
+    <Method N="Int32 GetHashCode()" />
+    <Method N="System.Type GetType()" ON="rxM=" />
+    <Method N="String ToString()" />
+    <Method N="!0 Create__Instance__(T instance)" ON="qxM=" />
+    <Method N="Void Dispose__Instance__(!0&amp; instance)" ON="rRM=" />
+    <Method N="Void .ctor()" />
+  </Type>
+  <Type N="ExTraffic.My.MyProject+ThreadSafeObjectProvider`1" ON="ExTraffic.My.MyProject+sxM=">
+    <Property N="GetInstance" ON="tRM=">
+      <Getter N="!0 get_GetInstance()" ON="thM=" />
+    </Property>
+    <Method N="Void .ctor()" />
+  </Type>
+  <Type N="ExTraffic.CSurf" ON="uBM=.txM=">
+    <Method N="Void .ctor()" />
+    <Method N="String GetHash(String link)" ON="uRM=" />
+    <Method N="Boolean Navigate(String link, String key)" ON="uxM=" />
+    <Method N="Object Surf(String link)" ON="vhM=" />
+  </Type>
+  <Type N="ExTraffic.FRMMain" ON="uBM=.wBM=">
+    <Property N="GTMain" ON="1RM=">
+      <Getter N="ExTraffic.GhostTheme get_GTMain()" ON="1hM=" />
+      <Setter N="Void set_GTMain(ExTraffic.GhostTheme WithEventsValue)" ON="1xM=" />
+    </Property>
+    <Property N="lbStatus" ON="3BM=">
+      <Getter N="System.Windows.Forms.Label get_lbStatus()" ON="3RM=" />
+      <Setter N="Void set_lbStatus(System.Windows.Forms.Label WithEventsValue)" ON="3hM=" />
+    </Property>
+    <Property N="GBbtnStopSurf" ON="4xM=">
+      <Getter N="ExTraffic.GhostButton get_GBbtnStopSurf()" ON="5BM=" />
+      <Setter N="Void set_GBbtnStopSurf(ExTraffic.GhostButton WithEventsValue)" ON="5RM=" />
+    </Property>
+    <Property N="GBbtnStartSurf" ON="6hM=">
+      <Getter N="ExTraffic.GhostButton get_GBbtnStartSurf()" ON="6xM=" />
+      <Setter N="Void set_GBbtnStartSurf(ExTraffic.GhostButton WithEventsValue)" ON="7BM=" />
+    </Property>
+    <Property N="GGBLinks" ON="8RM=">
+      <Getter N="ExTraffic.GhostGroupBox get_GGBLinks()" ON="8hM=" />
+      <Setter N="Void set_GGBLinks(ExTraffic.GhostGroupBox WithEventsValue)" ON="8xM=" />
+    </Property>
+    <Property N="LBLinks" ON="/BM=">
+      <Getter N="System.Windows.Forms.ListBox get_LBLinks()" ON="/RM=" />
+      <Setter N="Void set_LBLinks(System.Windows.Forms.ListBox WithEventsValue)" ON="/hM=" />
+    </Property>
+    <Property N="GhostControlBox1" ON="AxQ=">
+      <Getter N="ExTraffic.GhostControlBox get_GhostControlBox1()" ON="BBQ=" />
+      <Setter N="Void set_GhostControlBox1(ExTraffic.GhostControlBox WithEventsValue)" ON="BRQ=" />
+    </Property>
+    <Property N="GBbtnRemoveLinks" ON="ChQ=">
+      <Getter N="ExTraffic.GhostButton get_GBbtnRemoveLinks()" ON="CxQ=" />
+      <Setter N="Void set_GBbtnRemoveLinks(ExTraffic.GhostButton WithEventsValue)" ON="DBQ=" />
+    </Property>
+    <Property N="GBbtnAddLinks" ON="ERQ=">
+      <Getter N="ExTraffic.GhostButton get_GBbtnAddLinks()" ON="EhQ=" />
+      <Setter N="Void set_GBbtnAddLinks(ExTraffic.GhostButton WithEventsValue)" ON="ExQ=" />
+    </Property>
+    <Property N="wb" ON="GBQ=">
+      <Getter N="System.Windows.Forms.WebBrowser get_wb()" ON="GRQ=" />
+      <Setter N="Void set_wb(System.Windows.Forms.WebBrowser WithEventsValue)" ON="GhQ=" />
+    </Property>
+    <Property N="OFD" ON="HxQ=">
+      <Getter N="System.Windows.Forms.OpenFileDialog get_OFD()" ON="IBQ=" />
+      <Setter N="Void set_OFD(System.Windows.Forms.OpenFileDialog WithEventsValue)" ON="IRQ=" />
+    </Property>
+    <Property N="lbDelayStatus" ON="JhQ=">
+      <Getter N="System.Windows.Forms.Label get_lbDelayStatus()" ON="JxQ=" />
+      <Setter N="Void set_lbDelayStatus(System.Windows.Forms.Label WithEventsValue)" ON="KBQ=" />
+    </Property>
+    <Method N="Void .ctor()" />
+    <Method N="Void Dispose(Boolean disposing)" />
+    <Method N="Void InitializeComponent()" ON="KhQ=" />
+    <Method N="Void AddLinks()" ON="KxQ=" />
+    <Method N="Void RemoveLinks()" ON="LBQ=" />
+    <Method N="Void DownloadLinks()" ON="LRQ=" />
+    <Method N="Void SurfWebLinks()" ON="LhQ=" />
+    <Method N="Void FRMMain_Load(Object sender, System.EventArgs e)" ON="LxQ=" />
+    <Method N="Void FRMMain_FormClosing(Object sender, System.Windows.Forms.FormClosingEventArgs e)" ON="MhQ=" />
+    <Method N="Void GBbtnAddLinks_Click(Object sender, System.EventArgs e)" ON="NRQ=" />
+    <Method N="Void GBbtnRemoveLinks_Click(Object sender, System.EventArgs e)" ON="OBQ=" />
+    <Method N="Void GBbtnStartSurf_Click(Object sender, System.EventArgs e)" ON="OxQ=" />
+    <Method N="Void GBbtnStopSurf_Click(Object sender, System.EventArgs e)" ON="PhQ=" />
+    <Field N="components" ON="wRM=" />
+    <Field N="_GTMain" ON="whM=" />
+    <Field N="_lbStatus" ON="wxM=" />
+    <Field N="_GBbtnStopSurf" ON="xBM=" />
+    <Field N="_GBbtnStartSurf" ON="xRM=" />
+    <Field N="_GGBLinks" ON="xhM=" />
+    <Field N="_LBLinks" ON="xxM=" />
+    <Field N="_GhostControlBox1" ON="yBM=" />
+    <Field N="_GBbtnRemoveLinks" ON="yRM=" />
+    <Field N="_GBbtnAddLinks" ON="yhM=" />
+    <Field N="_wb" ON="yxM=" />
+    <Field N="_OFD" ON="zBM=" />
+    <Field N="_lbDelayStatus" ON="zRM=" />
+    <Field N="tempPath_AllLinks" ON="zhM=" />
+    <Field N="Thread_addLinks" ON="zxM=" />
+    <Field N="Thread_removeLinks" ON="0BM=" />
+    <Field N="Thread_surfLinks" ON="0RM=" />
+  </Type>
+  <Type N="ExTraffic.My.Resources.Resources" ON="QhQ=.QRQ=">
+    <Property N="ResourceManager" ON="RhQ=">
+      <Getter N="System.Resources.ResourceManager get_ResourceManager()" ON="RxQ=" />
+    </Property>
+    <Property N="Culture" ON="SxQ=">
+      <Getter N="System.Globalization.CultureInfo get_Culture()" ON="TBQ=" />
+      <Setter N="Void set_Culture(System.Globalization.CultureInfo Value)" ON="TRQ=" />
+    </Property>
+    <Field N="resourceMan" ON="QxQ=" />
+    <Field N="resourceCulture" ON="RBQ=" />
+  </Type>
+  <Type N="ExTraffic.My.MySettings">
+    <Method N="Void .cctor()" />
+    <Method N="Void .ctor()" />
+    <Method N="Void AutoSaveSettings(Object sender, System.EventArgs e)" />
+  </Type>
+  <Type N="ExTraffic.My.MySettingsProperty" />
+  <Type N="ExTraffic.ThemeContainer154" ON="uBM=.TxQ=">
+    <Property N="SmartBounds" ON="iBQ=">
+      <Getter N="Boolean get_SmartBounds()" ON="iRQ=" />
+      <Setter N="Void set_SmartBounds(Boolean value)" ON="ihQ=" />
+    </Property>
+    <Property N="Movable" ON="jxQ=">
+      <Getter N="Boolean get_Movable()" ON="kBQ=" />
+      <Setter N="Void set_Movable(Boolean value)" ON="kRQ=" />
+    </Property>
+    <Property N="Sizable" ON="lhQ=">
+      <Getter N="Boolean get_Sizable()" ON="lxQ=" />
+      <Setter N="Void set_Sizable(Boolean value)" ON="mBQ=" />
+    </Property>
+    <Property N="TransparencyKey" ON="nRQ=">
+      <Getter N="System.Drawing.Color get_TransparencyKey()" ON="nhQ=" />
+      <Setter N="Void set_TransparencyKey(System.Drawing.Color value)" ON="nxQ=" />
+    </Property>
+    <Property N="BorderStyle" ON="pBQ=">
+      <Getter N="System.Windows.Forms.FormBorderStyle get_BorderStyle()" ON="pRQ=" />
+      <Setter N="Void set_BorderStyle(System.Windows.Forms.FormBorderStyle value)" ON="phQ=" />
+    </Property>
+    <Property N="StartPosition" ON="qxQ=">
+      <Getter N="System.Windows.Forms.FormStartPosition get_StartPosition()" ON="rBQ=" />
+      <Setter N="Void set_StartPosition(System.Windows.Forms.FormStartPosition value)" ON="rRQ=" />
+    </Property>
+    <Property N="NoRounding" ON="shQ=">
+      <Getter N="Boolean get_NoRounding()" ON="sxQ=" />
+      <Setter N="Void set_NoRounding(Boolean v)" ON="tBQ=" />
+    </Property>
+    <Property N="Image" ON="uRQ=">
+      <Getter N="System.Drawing.Image get_Image()" ON="uhQ=" />
+      <Setter N="Void set_Image(System.Drawing.Image value)" ON="uxQ=" />
+    </Property>
+    <Property N="Colors" ON="wBQ=">
+      <Getter N="ExTraffic.Bloom[] get_Colors()" ON="wRQ=" />
+      <Setter N="Void set_Colors(ExTraffic.Bloom[] value)" ON="whQ=" />
+    </Property>
+    <Property N="Customization" ON="xxQ=">
+      <Getter N="String get_Customization()" ON="yBQ=" />
+      <Setter N="Void set_Customization(String value)" ON="yRQ=" />
+    </Property>
+    <Property N="Transparent" ON="zhQ=">
+      <Getter N="Boolean get_Transparent()" ON="zxQ=" />
+      <Setter N="Void set_Transparent(Boolean value)" ON="0BQ=" />
+    </Property>
+    <Property N="ImageSize" ON="0xQ=">
+      <Getter N="System.Drawing.Size get_ImageSize()" ON="1BQ=" />
+    </Property>
+    <Property N="IsParentForm" ON="1hQ=">
+      <Getter N="Boolean get_IsParentForm()" ON="1xQ=" />
+    </Property>
+    <Property N="IsParentMdi" ON="2RQ=">
+      <Getter N="Boolean get_IsParentMdi()" ON="2hQ=" />
+    </Property>
+    <Property N="LockWidth" ON="3hQ=">
+      <Getter N="Int32 get_LockWidth()" ON="3xQ=" />
+      <Setter N="Void set_LockWidth(Int32 value)" ON="4BQ=" />
+    </Property>
+    <Property N="LockHeight" ON="5RQ=">
+      <Getter N="Int32 get_LockHeight()" ON="5hQ=" />
+      <Setter N="Void set_LockHeight(Int32 value)" ON="5xQ=" />
+    </Property>
+    <Property N="Header" ON="7BQ=">
+      <Getter N="Int32 get_Header()" ON="7RQ=" />
+      <Setter N="Void set_Header(Int32 v)" ON="7hQ=" />
+    </Property>
+    <Property N="ControlMode" ON="8xQ=">
+      <Getter N="Boolean get_ControlMode()" ON="9BQ=" />
+      <Setter N="Void set_ControlMode(Boolean v)" ON="9RQ=" />
+    </Property>
+    <Property N="IsAnimated" ON="/hQ=">
+      <Getter N="Boolean get_IsAnimated()" ON="/xQ=" />
+      <Setter N="Void set_IsAnimated(Boolean value)" ON="ABU=" />
+    </Property>
+    <Method N="Void .ctor()" />
+    <Method N="Void OnHandleCreated(System.EventArgs e)" />
+    <Method N="Void OnParentChanged(System.EventArgs e)" />
+    <Method N="Void DoAnimation(Boolean i)" ON="AhU=" />
+    <Method N="Void OnPaint(System.Windows.Forms.PaintEventArgs e)" />
+    <Method N="Void OnHandleDestroyed(System.EventArgs e)" />
+    <Method N="Void FormShown(Object sender, System.EventArgs e)" ON="BBU=" />
+    <Method N="Void OnSizeChanged(System.EventArgs e)" />
+    <Method N="Void SetBoundsCore(Int32 x, Int32 y, Int32 width, Int32 height, System.Windows.Forms.BoundsSpecified specified)" />
+    <Method N="Void SetState(ExTraffic.MouseState current)" ON="BxU=" />
+    <Method N="Void OnMouseMove(System.Windows.Forms.MouseEventArgs e)" />
+    <Method N="Void OnEnabledChanged(System.EventArgs e)" />
+    <Method N="Void OnMouseEnter(System.EventArgs e)" />
+    <Method N="Void OnMouseUp(System.Windows.Forms.MouseEventArgs e)" />
+    <Method N="Void OnMouseLeave(System.EventArgs e)" />
+    <Method N="Void OnMouseDown(System.Windows.Forms.MouseEventArgs e)" />
+    <Method N="Void WndProc(System.Windows.Forms.Message&amp; m)" />
+    <Method N="Int32 GetIndex()" ON="CRU=" />
+    <Method N="Void InvalidateMouse()" ON="ChU=" />
+    <Method N="Void InitializeMessages()" ON="CxU=" />
+    <Method N="Void CorrectBounds(System.Drawing.Rectangle bounds)" ON="DBU=" />
+    <Method N="System.Drawing.Pen GetPen(String name)" ON="DhU=" />
+    <Method N="System.Drawing.Pen GetPen(String name, Single width)" ON="DhU=" />
+    <Method N="System.Drawing.SolidBrush GetBrush(String name)" ON="EhU=" />
+    <Method N="System.Drawing.Color GetColor(String name)" ON="FBU=" />
+    <Method N="Void SetColor(String name, System.Drawing.Color value)" ON="FhU=" />
+    <Method N="Void SetColor(String name, Byte r, Byte g, Byte b)" ON="FhU=" />
+    <Method N="Void SetColor(String name, Byte a, Byte r, Byte g, Byte b)" ON="FhU=" />
+    <Method N="Void SetColor(String name, Byte a, System.Drawing.Color value)" ON="FhU=" />
+    <Method N="Void InvalidateBitmap()" ON="JRU=" />
+    <Method N="Void InvalidateCustimization()" ON="JhU=" />
+    <Method N="Void InvalidateTimer()" ON="JxU=" />
+    <Method N="Void ColorHook()" />
+    <Method N="Void PaintHook()" />
+    <Method N="Void OnCreation()" />
+    <Method N="Void OnAnimation()" />
+    <Method N="System.Drawing.Rectangle Offset(System.Drawing.Rectangle r, Int32 amount)" ON="KBU=" />
+    <Method N="System.Drawing.Size Offset(System.Drawing.Size s, Int32 amount)" ON="KBU=" />
+    <Method N="System.Drawing.Point Offset(System.Drawing.Point p, Int32 amount)" ON="KBU=" />
+    <Method N="System.Drawing.Point Center(System.Drawing.Rectangle p, System.Drawing.Rectangle c)" ON="LxU=" />
+    <Method N="System.Drawing.Point Center(System.Drawing.Rectangle p, System.Drawing.Size c)" ON="LxU=" />
+    <Method N="System.Drawing.Point Center(System.Drawing.Rectangle child)" ON="LxU=" />
+    <Method N="System.Drawing.Point Center(System.Drawing.Size child)" ON="LxU=" />
+    <Method N="System.Drawing.Point Center(Int32 childWidth, Int32 childHeight)" ON="LxU=" />
+    <Method N="System.Drawing.Point Center(System.Drawing.Size p, System.Drawing.Size c)" ON="LxU=" />
+    <Method N="System.Drawing.Point Center(Int32 pWidth, Int32 pHeight, Int32 cWidth, Int32 cHeight)" ON="LxU=" />
+    <Method N="System.Drawing.Size Measure()" ON="PhU=" />
+    <Method N="System.Drawing.Size Measure(String text)" ON="PhU=" />
+    <Method N="Void DrawPixel(System.Drawing.Color c1, Int32 x, Int32 y)" ON="QBU=" />
+    <Method N="Void DrawCorners(System.Drawing.Color c1, Int32 offset)" ON="RBU=" />
+    <Method N="Void DrawCorners(System.Drawing.Color c1, System.Drawing.Rectangle r1, Int32 offset)" ON="RBU=" />
+    <Method N="Void DrawCorners(System.Drawing.Color c1, Int32 x, Int32 y, Int32 width, Int32 height, Int32 offset)" ON="RBU=" />
+    <Method N="Void DrawCorners(System.Drawing.Color c1)" ON="RBU=" />
+    <Method N="Void DrawCorners(System.Drawing.Color c1, System.Drawing.Rectangle r1)" ON="RBU=" />
+    <Method N="Void DrawCorners(System.Drawing.Color c1, Int32 x, Int32 y, Int32 width, Int32 height)" ON="RBU=" />
+    <Method N="Void DrawBorders(System.Drawing.Pen p1, Int32 offset)" ON="WBU=" />
+    <Method N="Void DrawBorders(System.Drawing.Pen p1, System.Drawing.Rectangle r, Int32 offset)" ON="WBU=" />
+    <Method N="Void DrawBorders(System.Drawing.Pen p1, Int32 x, Int32 y, Int32 width, Int32 height, Int32 offset)" ON="WBU=" />
+    <Method N="Void DrawBorders(System.Drawing.Pen p1)" ON="WBU=" />
+    <Method N="Void DrawBorders(System.Drawing.Pen p1, System.Drawing.Rectangle r)" ON="WBU=" />
+    <Method N="Void DrawBorders(System.Drawing.Pen p1, Int32 x, Int32 y, Int32 width, Int32 height)" ON="WBU=" />
+    <Method N="Void DrawText(System.Drawing.Brush b1, System.Windows.Forms.HorizontalAlignment a, Int32 x, Int32 y)" ON="bBU=" />
+    <Method N="Void DrawText(System.Drawing.Brush b1, String text, System.Windows.Forms.HorizontalAlignment a, Int32 x, Int32 y)" ON="bBU=" />
+    <Method N="Void DrawText(System.Drawing.Brush b1, System.Drawing.Point p1)" ON="bBU=" />
+    <Method N="Void DrawText(System.Drawing.Brush b1, Int32 x, Int32 y)" ON="bBU=" />
+    <Method N="Void DrawImage(System.Windows.Forms.HorizontalAlignment a, Int32 x, Int32 y)" ON="exU=" />
+    <Method N="Void DrawImage(System.Drawing.Image image, System.Windows.Forms.HorizontalAlignment a, Int32 x, Int32 y)" ON="exU=" />
+    <Method N="Void DrawImage(System.Drawing.Point p1)" ON="exU=" />
+    <Method N="Void DrawImage(Int32 x, Int32 y)" ON="exU=" />
+    <Method N="Void DrawImage(System.Drawing.Image image, System.Drawing.Point p1)" ON="exU=" />
+    <Method N="Void DrawImage(System.Drawing.Image image, Int32 x, Int32 y)" ON="exU=" />
+    <Method N="Void DrawGradient(System.Drawing.Drawing2D.ColorBlend blend, Int32 x, Int32 y, Int32 width, Int32 height)" ON="ixU=" />
+    <Method N="Void DrawGradient(System.Drawing.Drawing2D.ColorBlend blend, Int32 x, Int32 y, Int32 width, Int32 height, Single angle)" ON="ixU=" />
+    <Method N="Void DrawGradient(System.Drawing.Drawing2D.ColorBlend blend, System.Drawing.Rectangle r)" ON="ixU=" />
+    <Method N="Void DrawGradient(System.Drawing.Drawing2D.ColorBlend blend, System.Drawing.Rectangle r, Single angle)" ON="ixU=" />
+    <Method N="Void DrawGradient(System.Drawing.Color c1, System.Drawing.Color c2, Int32 x, Int32 y, Int32 width, Int32 height)" ON="ixU=" />
+    <Method N="Void DrawGradient(System.Drawing.Color c1, System.Drawing.Color c2, Int32 x, Int32 y, Int32 width, Int32 height, Single angle)" ON="ixU=" />
+    <Method N="Void DrawGradient(System.Drawing.Color c1, System.Drawing.Color c2, System.Drawing.Rectangle r)" ON="ixU=" />
+    <Method N="Void DrawGradient(System.Drawing.Color c1, System.Drawing.Color c2, System.Drawing.Rectangle r, Single angle)" ON="ixU=" />
+    <Method N="Void DrawRadial(System.Drawing.Drawing2D.ColorBlend blend, Int32 x, Int32 y, Int32 width, Int32 height)" ON="sBU=" />
+    <Method N="Void DrawRadial(System.Drawing.Drawing2D.ColorBlend blend, Int32 x, Int32 y, Int32 width, Int32 height, System.Drawing.Point center)" ON="sBU=" />
+    <Method N="Void DrawRadial(System.Drawing.Drawing2D.ColorBlend blend, Int32 x, Int32 y, Int32 width, Int32 height, Int32 cx, Int32 cy)" ON="sBU=" />
+    <Method N="Void DrawRadial(System.Drawing.Drawing2D.ColorBlend blend, System.Drawing.Rectangle r)" ON="sBU=" />
+    <Method N="Void DrawRadial(System.Drawing.Drawing2D.ColorBlend blend, System.Drawing.Rectangle r, System.Drawing.Point center)" ON="sBU=" />
+    <Method N="Void DrawRadial(System.Drawing.Drawing2D.ColorBlend blend, System.Drawing.Rectangle r, Int32 cx, Int32 cy)" ON="sBU=" />
+    <Method N="Void DrawRadial(System.Drawing.Color c1, System.Drawing.Color c2, Int32 x, Int32 y, Int32 width, Int32 height)" ON="sBU=" />
+    <Method N="Void DrawRadial(System.Drawing.Color c1, System.Drawing.Color c2, Int32 x, Int32 y, Int32 width, Int32 height, Single angle)" ON="sBU=" />
+    <Method N="Void DrawRadial(System.Drawing.Color c1, System.Drawing.Color c2, System.Drawing.Rectangle r)" ON="sBU=" />
+    <Method N="Void DrawRadial(System.Drawing.Color c1, System.Drawing.Color c2, System.Drawing.Rectangle r, Single angle)" ON="sBU=" />
+    <Method N="System.Drawing.Drawing2D.GraphicsPath CreateRound(Int32 x, Int32 y, Int32 width, Int32 height, Int32 slope)" ON="4BU=" />
+    <Method N="System.Drawing.Drawing2D.GraphicsPath CreateRound(System.Drawing.Rectangle r, Int32 slope)" ON="4BU=" />
+    <Field N="G" ON="UBQ=" />
+    <Field N="B" ON="URQ=" />
+    <Field N="DoneCreation" ON="UhQ=" />
+    <Field N="HasShown" ON="UxQ=" />
+    <Field N="Frame" ON="VBQ=" />
+    <Field N="State" ON="VRQ=" />
+    <Field N="WM_LMBUTTONDOWN" ON="VhQ=" />
+    <Field N="GetIndexPoint" ON="VxQ=" />
+    <Field N="B1" ON="WBQ=" />
+    <Field N="B2" ON="WRQ=" />
+    <Field N="B3" ON="WhQ=" />
+    <Field N="B4" ON="WxQ=" />
+    <Field N="Current" ON="XBQ=" />
+    <Field N="Previous" ON="XRQ=" />
+    <Field N="Messages" ON="XhQ=" />
+    <Field N="_BackColor" ON="XxQ=" />
+    <Field N="_SmartBounds" ON="YBQ=" />
+    <Field N="_Movable" ON="YRQ=" />
+    <Field N="_Sizable" ON="YhQ=" />
+    <Field N="_TransparencyKey" ON="YxQ=" />
+    <Field N="_BorderStyle" ON="ZBQ=" />
+    <Field N="_StartPosition" ON="ZRQ=" />
+    <Field N="_NoRounding" ON="ZhQ=" />
+    <Field N="_Image" ON="ZxQ=" />
+    <Field N="Items" ON="aBQ=" />
+    <Field N="_Customization" ON="aRQ=" />
+    <Field N="_Transparent" ON="ahQ=" />
+    <Field N="_ImageSize" ON="axQ=" />
+    <Field N="_IsParentForm" ON="bBQ=" />
+    <Field N="_LockWidth" ON="bRQ=" />
+    <Field N="_LockHeight" ON="bhQ=" />
+    <Field N="_Header" ON="bxQ=" />
+    <Field N="_ControlMode" ON="cBQ=" />
+    <Field N="_IsAnimated" ON="cRQ=" />
+    <Field N="OffsetReturnRectangle" ON="chQ=" />
+    <Field N="OffsetReturnSize" ON="cxQ=" />
+    <Field N="OffsetReturnPoint" ON="dBQ=" />
+    <Field N="CenterReturn" ON="dRQ=" />
+    <Field N="MeasureBitmap" ON="dhQ=" />
+    <Field N="MeasureGraphics" ON="dxQ=" />
+    <Field N="DrawPixelBrush" ON="eBQ=" />
+    <Field N="DrawCornersBrush" ON="eRQ=" />
+    <Field N="DrawTextPoint" ON="ehQ=" />
+    <Field N="DrawTextSize" ON="exQ=" />
+    <Field N="DrawImagePoint" ON="fBQ=" />
+    <Field N="DrawGradientBrush" ON="fRQ=" />
+    <Field N="DrawGradientRectangle" ON="fhQ=" />
+    <Field N="DrawRadialPath" ON="fxQ=" />
+    <Field N="DrawRadialBrush1" ON="gBQ=" />
+    <Field N="DrawRadialBrush2" ON="gRQ=" />
+    <Field N="DrawRadialRectangle" ON="ghQ=" />
+    <Field N="CreateRoundPath" ON="gxQ=" />
+    <Field N="CreateRoundRectangle" ON="hBQ=" />
+  </Type>
+  <Type N="ExTraffic.ThemeControl154" ON="uBM=.6BU=">
+    <Property N="NoRounding" ON="shQ=">
+      <Getter N="Boolean get_NoRounding()" ON="sxQ=" />
+      <Setter N="Void set_NoRounding(Boolean v)" ON="tBQ=" />
+    </Property>
+    <Property N="Image" ON="uRQ=">
+      <Getter N="System.Drawing.Image get_Image()" ON="uhQ=" />
+      <Setter N="Void set_Image(System.Drawing.Image value)" ON="uxQ=" />
+    </Property>
+    <Property N="Transparent" ON="zhQ=">
+      <Getter N="Boolean get_Transparent()" ON="zxQ=" />
+      <Setter N="Void set_Transparent(Boolean value)" ON="0BQ=" />
+    </Property>
+    <Property N="Colors" ON="wBQ=">
+      <Getter N="ExTraffic.Bloom[] get_Colors()" ON="wRQ=" />
+      <Setter N="Void set_Colors(ExTraffic.Bloom[] value)" ON="whQ=" />
+    </Property>
+    <Property N="Customization" ON="xxQ=">
+      <Getter N="String get_Customization()" ON="yBQ=" />
+      <Setter N="Void set_Customization(String value)" ON="yRQ=" />
+    </Property>
+    <Property N="ImageSize" ON="0xQ=">
+      <Getter N="System.Drawing.Size get_ImageSize()" ON="1BQ=" />
+    </Property>
+    <Property N="LockWidth" ON="3hQ=">
+      <Getter N="Int32 get_LockWidth()" ON="3xQ=" />
+      <Setter N="Void set_LockWidth(Int32 value)" ON="4BQ=" />
+    </Property>
+    <Property N="LockHeight" ON="5RQ=">
+      <Getter N="Int32 get_LockHeight()" ON="5hQ=" />
+      <Setter N="Void set_LockHeight(Int32 value)" ON="5xQ=" />
+    </Property>
+    <Property N="IsAnimated" ON="/hQ=">
+      <Getter N="Boolean get_IsAnimated()" ON="/xQ=" />
+      <Setter N="Void set_IsAnimated(Boolean value)" ON="ABU=" />
+    </Property>
+    <Method N="Void .ctor()" />
+    <Method N="Void OnHandleCreated(System.EventArgs e)" />
+    <Method N="Void OnParentChanged(System.EventArgs e)" />
+    <Method N="Void DoAnimation(Boolean i)" ON="AhU=" />
+    <Method N="Void OnPaint(System.Windows.Forms.PaintEventArgs e)" />
+    <Method N="Void OnHandleDestroyed(System.EventArgs e)" />
+    <Method N="Void OnSizeChanged(System.EventArgs e)" />
+    <Method N="Void SetBoundsCore(Int32 x, Int32 y, Int32 width, Int32 height, System.Windows.Forms.BoundsSpecified specified)" />
+    <Method N="Void OnMouseEnter(System.EventArgs e)" />
+    <Method N="Void OnMouseUp(System.Windows.Forms.MouseEventArgs e)" />
+    <Method N="Void OnMouseDown(System.Windows.Forms.MouseEventArgs e)" />
+    <Method N="Void OnMouseLeave(System.EventArgs e)" />
+    <Method N="Void OnEnabledChanged(System.EventArgs e)" />
+    <Method N="Void SetState(ExTraffic.MouseState current)" ON="BxU=" />
+    <Method N="System.Drawing.Pen GetPen(String name)" ON="DhU=" />
+    <Method N="System.Drawing.Pen GetPen(String name, Single width)" ON="DhU=" />
+    <Method N="System.Drawing.SolidBrush GetBrush(String name)" ON="EhU=" />
+    <Method N="System.Drawing.Color GetColor(String name)" ON="FBU=" />
+    <Method N="Void SetColor(String name, System.Drawing.Color value)" ON="FhU=" />
+    <Method N="Void SetColor(String name, Byte r, Byte g, Byte b)" ON="FhU=" />
+    <Method N="Void SetColor(String name, Byte a, Byte r, Byte g, Byte b)" ON="FhU=" />
+    <Method N="Void SetColor(String name, Byte a, System.Drawing.Color value)" ON="FhU=" />
+    <Method N="Void InvalidateBitmap()" ON="JRU=" />
+    <Method N="Void InvalidateCustimization()" ON="JhU=" />
+    <Method N="Void InvalidateTimer()" ON="JxU=" />
+    <Method N="Void ColorHook()" />
+    <Method N="Void PaintHook()" />
+    <Method N="Void OnCreation()" />
+    <Method N="Void OnAnimation()" />
+    <Method N="System.Drawing.Rectangle Offset(System.Drawing.Rectangle r, Int32 amount)" ON="KBU=" />
+    <Method N="System.Drawing.Size Offset(System.Drawing.Size s, Int32 amount)" ON="KBU=" />
+    <Method N="System.Drawing.Point Offset(System.Drawing.Point p, Int32 amount)" ON="KBU=" />
+    <Method N="System.Drawing.Point Center(System.Drawing.Rectangle p, System.Drawing.Rectangle c)" ON="LxU=" />
+    <Method N="System.Drawing.Point Center(System.Drawing.Rectangle p, System.Drawing.Size c)" ON="LxU=" />
+    <Method N="System.Drawing.Point Center(System.Drawing.Rectangle child)" ON="LxU=" />
+    <Method N="System.Drawing.Point Center(System.Drawing.Size child)" ON="LxU=" />
+    <Method N="System.Drawing.Point Center(Int32 childWidth, Int32 childHeight)" ON="LxU=" />
+    <Method N="System.Drawing.Point Center(System.Drawing.Size p, System.Drawing.Size c)" ON="LxU=" />
+    <Method N="System.Drawing.Point Center(Int32 pWidth, Int32 pHeight, Int32 cWidth, Int32 cHeight)" ON="LxU=" />
+    <Method N="System.Drawing.Size Measure()" ON="PhU=" />
+    <Method N="System.Drawing.Size Measure(String text)" ON="PhU=" />
+    <Method N="Void DrawPixel(System.Drawing.Color c1, Int32 x, Int32 y)" ON="QBU=" />
+    <Method N="Void DrawCorners(System.Drawing.Color c1, Int32 offset)" ON="RBU=" />
+    <Method N="Void DrawCorners(System.Drawing.Color c1, System.Drawing.Rectangle r1, Int32 offset)" ON="RBU=" />
+    <Method N="Void DrawCorners(System.Drawing.Color c1, Int32 x, Int32 y, Int32 width, Int32 height, Int32 offset)" ON="RBU=" />
+    <Method N="Void DrawCorners(System.Drawing.Color c1)" ON="RBU=" />
+    <Method N="Void DrawCorners(System.Drawing.Color c1, System.Drawing.Rectangle r1)" ON="RBU=" />
+    <Method N="Void DrawCorners(System.Drawing.Color c1, Int32 x, Int32 y, Int32 width, Int32 height)" ON="RBU=" />
+    <Method N="Void DrawBorders(System.Drawing.Pen p1, Int32 offset)" ON="WBU=" />
+    <Method N="Void DrawBorders(System.Drawing.Pen p1, System.Drawing.Rectangle r, Int32 offset)" ON="WBU=" />
+    <Method N="Void DrawBorders(System.Drawing.Pen p1, Int32 x, Int32 y, Int32 width, Int32 height, Int32 offset)" ON="WBU=" />
+    <Method N="Void DrawBorders(System.Drawing.Pen p1)" ON="WBU=" />
+    <Method N="Void DrawBorders(System.Drawing.Pen p1, System.Drawing.Rectangle r)" ON="WBU=" />
+    <Method N="Void DrawBorders(System.Drawing.Pen p1, Int32 x, Int32 y, Int32 width, Int32 height)" ON="WBU=" />
+    <Method N="Void DrawText(System.Drawing.Brush b1, System.Windows.Forms.HorizontalAlignment a, Int32 x, Int32 y)" ON="bBU=" />
+    <Method N="Void DrawText(System.Drawing.Brush b1, String text, System.Windows.Forms.HorizontalAlignment a, Int32 x, Int32 y)" ON="bBU=" />
+    <Method N="Void DrawText(System.Drawing.Brush b1, System.Drawing.Point p1)" ON="bBU=" />
+    <Method N="Void DrawText(System.Drawing.Brush b1, Int32 x, Int32 y)" ON="bBU=" />
+    <Method N="Void DrawImage(System.Windows.Forms.HorizontalAlignment a, Int32 x, Int32 y)" ON="exU=" />
+    <Method N="Void DrawImage(System.Drawing.Image image, System.Windows.Forms.HorizontalAlignment a, Int32 x, Int32 y)" ON="exU=" />
+    <Method N="Void DrawImage(System.Drawing.Point p1)" ON="exU=" />
+    <Method N="Void DrawImage(Int32 x, Int32 y)" ON="exU=" />
+    <Method N="Void DrawImage(System.Drawing.Image image, System.Drawing.Point p1)" ON="exU=" />
+    <Method N="Void DrawImage(System.Drawing.Image image, Int32 x, Int32 y)" ON="exU=" />
+    <Method N="Void DrawGradient(System.Drawing.Drawing2D.ColorBlend blend, Int32 x, Int32 y, Int32 width, Int32 height)" ON="ixU=" />
+    <Method N="Void DrawGradient(System.Drawing.Drawing2D.ColorBlend blend, Int32 x, Int32 y, Int32 width, Int32 height, Single angle)" ON="ixU=" />
+    <Method N="Void DrawGradient(System.Drawing.Drawing2D.ColorBlend blend, System.Drawing.Rectangle r)" ON="ixU=" />
+    <Method N="Void DrawGradient(System.Drawing.Drawing2D.ColorBlend blend, System.Drawing.Rectangle r, Single angle)" ON="ixU=" />
+    <Method N="Void DrawGradient(System.Drawing.Color c1, System.Drawing.Color c2, Int32 x, Int32 y, Int32 width, Int32 height)" ON="ixU=" />
+    <Method N="Void DrawGradient(System.Drawing.Color c1, System.Drawing.Color c2, Int32 x, Int32 y, Int32 width, Int32 height, Single angle)" ON="ixU=" />
+    <Method N="Void DrawGradient(System.Drawing.Color c1, System.Drawing.Color c2, System.Drawing.Rectangle r)" ON="ixU=" />
+    <Method N="Void DrawGradient(System.Drawing.Color c1, System.Drawing.Color c2, System.Drawing.Rectangle r, Single angle)" ON="ixU=" />
+    <Method N="Void DrawRadial(System.Drawing.Drawing2D.ColorBlend blend, Int32 x, Int32 y, Int32 width, Int32 height)" ON="sBU=" />
+    <Method N="Void DrawRadial(System.Drawing.Drawing2D.ColorBlend blend, Int32 x, Int32 y, Int32 width, Int32 height, System.Drawing.Point center)" ON="sBU=" />
+    <Method N="Void DrawRadial(System.Drawing.Drawing2D.ColorBlend blend, Int32 x, Int32 y, Int32 width, Int32 height, Int32 cx, Int32 cy)" ON="sBU=" />
+    <Method N="Void DrawRadial(System.Drawing.Drawing2D.ColorBlend blend, System.Drawing.Rectangle r)" ON="sBU=" />
+    <Method N="Void DrawRadial(System.Drawing.Drawing2D.ColorBlend blend, System.Drawing.Rectangle r, System.Drawing.Point center)" ON="sBU=" />
+    <Method N="Void DrawRadial(System.Drawing.Drawing2D.ColorBlend blend, System.Drawing.Rectangle r, Int32 cx, Int32 cy)" ON="sBU=" />
+    <Method N="Void DrawRadial(System.Drawing.Color c1, System.Drawing.Color c2, Int32 x, Int32 y, Int32 width, Int32 height)" ON="sBU=" />
+    <Method N="Void DrawRadial(System.Drawing.Color c1, System.Drawing.Color c2, Int32 x, Int32 y, Int32 width, Int32 height, Single angle)" ON="sBU=" />
+    <Method N="Void DrawRadial(System.Drawing.Color c1, System.Drawing.Color c2, System.Drawing.Rectangle r)" ON="sBU=" />
+    <Method N="Void DrawRadial(System.Drawing.Color c1, System.Drawing.Color c2, System.Drawing.Rectangle r, Single angle)" ON="sBU=" />
+    <Method N="System.Drawing.Drawing2D.GraphicsPath CreateRound(Int32 x, Int32 y, Int32 width, Int32 height, Int32 slope)" ON="4BU=" />
+    <Method N="System.Drawing.Drawing2D.GraphicsPath CreateRound(System.Drawing.Rectangle r, Int32 slope)" ON="4BU=" />
+    <Field N="G" ON="UBQ=" />
+    <Field N="B" ON="URQ=" />
+    <Field N="DoneCreation" ON="UhQ=" />
+    <Field N="InPosition" ON="6RU=" />
+    <Field N="State" ON="VRQ=" />
+    <Field N="_BackColor" ON="XxQ=" />
+    <Field N="_NoRounding" ON="ZhQ=" />
+    <Field N="_Image" ON="ZxQ=" />
+    <Field N="_Transparent" ON="ahQ=" />
+    <Field N="Items" ON="aBQ=" />
+    <Field N="_Customization" ON="aRQ=" />
+    <Field N="_ImageSize" ON="axQ=" />
+    <Field N="_LockWidth" ON="bRQ=" />
+    <Field N="_LockHeight" ON="bhQ=" />
+    <Field N="_IsAnimated" ON="cRQ=" />
+    <Field N="OffsetReturnRectangle" ON="chQ=" />
+    <Field N="OffsetReturnSize" ON="cxQ=" />
+    <Field N="OffsetReturnPoint" ON="dBQ=" />
+    <Field N="CenterReturn" ON="dRQ=" />
+    <Field N="MeasureBitmap" ON="dhQ=" />
+    <Field N="MeasureGraphics" ON="dxQ=" />
+    <Field N="DrawPixelBrush" ON="eBQ=" />
+    <Field N="DrawCornersBrush" ON="eRQ=" />
+    <Field N="DrawTextPoint" ON="ehQ=" />
+    <Field N="DrawTextSize" ON="exQ=" />
+    <Field N="DrawImagePoint" ON="fBQ=" />
+    <Field N="DrawGradientBrush" ON="fRQ=" />
+    <Field N="DrawGradientRectangle" ON="fhQ=" />
+    <Field N="DrawRadialPath" ON="fxQ=" />
+    <Field N="DrawRadialBrush1" ON="gBQ=" />
+    <Field N="DrawRadialBrush2" ON="gRQ=" />
+    <Field N="DrawRadialRectangle" ON="ghQ=" />
+    <Field N="CreateRoundPath" ON="gxQ=" />
+    <Field N="CreateRoundRectangle" ON="hBQ=" />
+  </Type>
+  <Type N="ExTraffic.ThemeShare" ON="uBM=.yBY=">
+    <Method N="Void .cctor()" />
+    <Method N="Void HandleCallbacks(IntPtr state, Boolean reserve)" ON="zxY=" />
+    <Method N="Void InvalidateThemeTimer()" ON="0hY=" />
+    <Method N="Void AddAnimationCallback(ExTraffic.ThemeShare+AnimationDelegate callback)" ON="0xY=" />
+    <Method N="Void RemoveAnimationCallback(ExTraffic.ThemeShare+AnimationDelegate callback)" ON="1RY=" />
+    <Field N="Frames" ON="yRY=" />
+    <Field N="Invalidate" ON="yhY=" />
+    <Field N="ThemeTimer" ON="yxY=" />
+    <Field N="FPS" ON="zBY=" />
+    <Field N="Rate" ON="zRY=" />
+    <Field N="Callbacks" ON="zhY=" />
+  </Type>
+  <Type N="ExTraffic.MouseState" ON="uBM=.1xY=">
+    <Field N="None" ON="2BY=" />
+    <Field N="Over" ON="2RY=" />
+    <Field N="Down" ON="2hY=" />
+    <Field N="Block" ON="2xY=" />
+  </Type>
+  <Type N="ExTraffic.Bloom" ON="uBM=.3BY=">
+    <Property N="Name" ON="4BY=">
+      <Getter N="String get_Name()" ON="4RY=" />
+    </Property>
+    <Property N="Value" ON="5RY=">
+      <Getter N="System.Drawing.Color get_Value()" ON="5hY=" />
+      <Setter N="Void set_Value(System.Drawing.Color value)" ON="5xY=" />
+    </Property>
+    <Property N="ValueHex" ON="7BY=">
+      <Getter N="String get_ValueHex()" ON="7RY=" />
+      <Setter N="Void set_ValueHex(String value)" ON="7hY=" />
+    </Property>
+    <Method N="Void .ctor(String name, System.Drawing.Color value)" />
+    <Field N="_Name" ON="3RY=" />
+    <Field N="_Value" ON="3hY=" />
+  </Type>
+  <Type N="ExTraffic.PrecisionTimer" ON="uBM=.8BY=">
+    <Property N="Enabled" ON="9RY=">
+      <Getter N="Boolean get_Enabled()" ON="9hY=" />
+    </Property>
+    <Method N="Void .ctor()" />
+    <Method N="Boolean CreateTimerQueueTimer(IntPtr&amp; handle, IntPtr queue, ExTraffic.PrecisionTimer+TimerDelegate callback, IntPtr state, UInt32 dueTime, UInt32 period, UInt32 flags)" ON="9xY=" />
+    <Method N="Boolean DeleteTimerQueueTimer(IntPtr queue, IntPtr handle, IntPtr callback)" ON="Axc=" />
+    <Method N="Void Create(UInt32 dueTime, UInt32 period, ExTraffic.PrecisionTimer+TimerDelegate callback)" ON="Bxc=" />
+    <Method N="Void Delete()" ON="Cxc=" />
+    <Method N="Void ThrowNewException(String name)" ON="DBc=" />
+    <Method N="Void Dispose()" />
+    <Field N="_Enabled" ON="8RY=" />
+    <Field N="Handle" ON="8hY=" />
+    <Field N="TimerCallback" ON="8xY=" />
+  </Type>
+  <Type N="ExTraffic.GhostTheme" ON="uBM=.Dhc=">
+    <Property N="ShowIcon" ON="Exc=">
+      <Getter N="Boolean get_ShowIcon()" ON="FBc=" />
+      <Setter N="Void set_ShowIcon(Boolean value)" ON="FRc=" />
+    </Property>
+    <Method N="Void ColorHook()" />
+    <Method N="Void PaintHook()" />
+    <Method N="Void .ctor()" />
+    <Field N="_ShowIcon" ON="Dxc=" />
+  </Type>
+  <Type N="ExTraffic.GhostButton" ON="uBM=.Fxc=">
+    <Property N="EnableGlass" ON="Hhc=">
+      <Getter N="Boolean get_EnableGlass()" ON="Hxc=" />
+      <Setter N="Void set_EnableGlass(Boolean value)" ON="IBc=" />
+    </Property>
+    <Property N="Color" ON="JRc=">
+      <Getter N="System.Drawing.Color get_Color()" ON="Jhc=" />
+      <Setter N="Void set_Color(System.Drawing.Color value)" ON="Jxc=" />
+    </Property>
+    <Method N="Void ColorHook()" />
+    <Method N="Void OnAnimation()" />
+    <Method N="Void OnTextChanged(System.EventArgs e)" />
+    <Method N="Void PaintHook()" />
+    <Method N="Void .ctor()" />
+    <Field N="Glass" ON="GBc=" />
+    <Field N="_color" ON="GRc=" />
+    <Field N="a" ON="Ghc=" />
+  </Type>
+  <Type N="ExTraffic.GhostProgressbar" ON="uBM=.KRc=">
+    <Property N="Maximum" ON="MBc=">
+      <Getter N="Int32 get_Maximum()" ON="MRc=" />
+      <Setter N="Void set_Maximum(Int32 V)" ON="Mhc=" />
+    </Property>
+    <Property N="Value" ON="5RY=">
+      <Getter N="Int32 get_Value()" ON="5hY=" />
+      <Setter N="Void set_Value(Int32 V)" ON="5xY=" />
+    </Property>
+    <Property N="Animated" ON="ORc=">
+      <Getter N="Boolean get_Animated()" ON="Ohc=" />
+      <Setter N="Void set_Animated(Boolean V)" ON="Oxc=" />
+    </Property>
+    <Method N="Void ColorHook()" />
+    <Method N="Void OnAnimation()" />
+    <Method N="Void PaintHook()" />
+    <Method N="Void .ctor()" />
+    <Field N="_Maximum" ON="Khc=" />
+    <Field N="_Value" ON="3hY=" />
+    <Field N="HOffset" ON="Kxc=" />
+    <Field N="Progress" ON="LBc=" />
+  </Type>
+  <Type N="ExTraffic.GhostCheckbox" ON="uBM=.PRc=">
+    <Property N="Checked" ON="RBc=">
+      <Getter N="Boolean get_Checked()" ON="RRc=" />
+      <Setter N="Void set_Checked(Boolean V)" ON="Rhc=" />
+    </Property>
+    <Event N="CheckedChanged" ON="TBc=">
+      <Add N="Void add_CheckedChanged(ExTraffic.GhostCheckbox+CheckedChangedEventHandler obj)" ON="TRc=" />
+      <Remove N="Void remove_CheckedChanged(ExTraffic.GhostCheckbox+CheckedChangedEventHandler obj)" ON="Txc=" />
+    </Event>
+    <Method N="Void ColorHook()" />
+    <Method N="Void OnTextChanged(System.EventArgs e)" />
+    <Method N="Void OnMouseMove(System.Windows.Forms.MouseEventArgs e)" />
+    <Method N="Void OnMouseDown(System.Windows.Forms.MouseEventArgs e)" />
+    <Method N="Void PaintHook()" />
+    <Method N="Void .ctor()" />
+    <Field N="_Checked" ON="Phc=" />
+    <Field N="X" ON="Pxc=" />
+    <Field N="CheckedChangedEvent" ON="QBc=" />
+  </Type>
+  <Type N="ExTraffic.GhostRadiobutton" ON="uBM=.URc=">
+    <Property N="Checked" ON="RBc=">
+      <Getter N="Boolean get_Checked()" ON="RRc=" />
+      <Setter N="Void set_Checked(Boolean value)" ON="Rhc=" />
+    </Property>
+    <Event N="CheckedChanged" ON="TBc=">
+      <Add N="Void add_CheckedChanged(ExTraffic.GhostRadiobutton+CheckedChangedEventHandler obj)" ON="TRc=" />
+      <Remove N="Void remove_CheckedChanged(ExTraffic.GhostRadiobutton+CheckedChangedEventHandler obj)" ON="Txc=" />
+    </Event>
+    <Method N="Void OnCreation()" />
+    <Method N="Void InvalidateControls()" ON="WBc=" />
+    <Method N="Void OnMouseDown(System.Windows.Forms.MouseEventArgs e)" />
+    <Method N="Void OnMouseMove(System.Windows.Forms.MouseEventArgs e)" />
+    <Method N="Void ColorHook()" />
+    <Method N="Void OnTextChanged(System.EventArgs e)" />
+    <Method N="Void PaintHook()" />
+    <Method N="Void .ctor()" />
+    <Field N="X" ON="Pxc=" />
+    <Field N="_Checked" ON="Phc=" />
+    <Field N="CheckedChangedEvent" ON="QBc=" />
+  </Type>
+  <Type N="ExTraffic.GhostTabControl" ON="uBM=.WRc=">
+    <Method N="Void .ctor()" />
+    <Method N="Void CreateHandle()" />
+    <Method N="Void OnMouseClick(System.Windows.Forms.MouseEventArgs e)" />
+    <Method N="Void OnPaint(System.Windows.Forms.PaintEventArgs e)" />
+    <Method N="Void OnSelectedIndexChanged(System.EventArgs e)" />
+    <Field N="Xstart" ON="Whc=" />
+    <Field N="Xstop" ON="Wxc=" />
+  </Type>
+  <Type N="ExTraffic.GhostTabControlLagFree" ON="uBM=.XBc=">
+    <Property N="ForeColor" ON="YRc=">
+      <Getter N="System.Drawing.Color get_ForeColor()" ON="Yhc=" />
+      <Setter N="Void set_ForeColor(System.Drawing.Color value)" ON="Yxc=" />
+    </Property>
+    <Method N="Void .ctor()" />
+    <Method N="Void CreateHandle()" />
+    <Method N="Void OnPaint(System.Windows.Forms.PaintEventArgs e)" />
+    <Field N="_Forecolor" ON="XRc=" />
+  </Type>
+  <Type N="ExTraffic.GhostListBoxPretty" ON="uBM=.ZRc=">
+    <Property N="Items" ON="axc=">
+      <Getter N="String[] get_Items()" ON="bBc=" />
+      <Setter N="Void set_Items(String[] value)" ON="bRc=" />
+    </Property>
+    <Property N="SelectedItem" ON="cBc=">
+      <Getter N="String get_SelectedItem()" ON="cRc=" />
+    </Property>
+    <Method N="Void .ctor()" />
+    <Method N="Void ColorHook()" />
+    <Method N="Void OnResize(System.EventArgs e)" />
+    <Method N="Void PaintHook()" />
+    <Method N="Void DrawItem(Object sender, System.Windows.Forms.DrawItemEventArgs e)" ON="chc=" />
+    <Method N="Void AddRange(Object[] Items)" ON="dRc=" />
+    <Method N="Void AddItem(Object Item)" ON="dxc=" />
+    <Field N="_LBox" ON="Zhc=" />
+    <Field N="__Items" ON="Zxc=" />
+  </Type>
+  <Type N="ExTraffic.GhostListboxLessPretty" ON="uBM=.eRc=">
+    <Method N="Void .ctor()" />
+    <Method N="Void WndProc(System.Windows.Forms.Message&amp; m)" />
+    <Method N="Void OnDrawItem(System.Windows.Forms.DrawItemEventArgs e)" />
+    <Method N="Void CustomPaint()" ON="ehc=" />
+  </Type>
+  <Type N="ExTraffic.GhostComboBox" ON="uBM=.exc=">
+    <Method N="Void .ctor()" />
+    <Method N="Void OnMouseMove(System.Windows.Forms.MouseEventArgs e)" />
+    <Method N="Void OnMouseLeave(System.EventArgs e)" />
+    <Method N="Void OnPaint(System.Windows.Forms.PaintEventArgs e)" />
+    <Method N="Void OnDrawItem(System.Windows.Forms.DrawItemEventArgs e)" />
+    <Method N="System.Drawing.Point[] Triangle(System.Drawing.Point Location, System.Drawing.Size Size)" ON="fBc=" />
+    <Method N="Void GhostComboBox_DropDownClosed(Object sender, System.EventArgs e)" ON="fxc=" />
+    <Method N="Void GhostCombo_TextChanged(Object sender, System.EventArgs e)" ON="ghc=" />
+    <Field N="X" ON="Pxc=" />
+  </Type>
+  <Type N="ExTraffic.GhostGroupBox" ON="uBM=.hRc=">
+    <Method N="Void .ctor()" />
+    <Method N="Void ColorHook()" />
+    <Method N="Void PaintHook()" />
+  </Type>
+  <Type N="ExTraffic.GhostTextBox" ON="uBM=.hhc=">
+    <Property N="TextAlign" ON="kxc=">
+      <Getter N="System.Windows.Forms.HorizontalAlignment get_TextAlign()" ON="lBc=" />
+      <Setter N="Void set_TextAlign(System.Windows.Forms.HorizontalAlignment value)" ON="lRc=" />
+    </Property>
+    <Property N="MaxLength" ON="mhc=">
+      <Getter N="Int32 get_MaxLength()" ON="mxc=" />
+      <Setter N="Void set_MaxLength(Int32 value)" ON="nBc=" />
+    </Property>
+    <Property N="ReadOnly" ON="oRc=">
+      <Getter N="Boolean get_ReadOnly()" ON="ohc=" />
+      <Setter N="Void set_ReadOnly(Boolean value)" ON="oxc=" />
+    </Property>
+    <Property N="UseSystemPasswordChar" ON="qBc=">
+      <Getter N="Boolean get_UseSystemPasswordChar()" ON="qRc=" />
+      <Setter N="Void set_UseSystemPasswordChar(Boolean value)" ON="qhc=" />
+    </Property>
+    <Property N="Multiline" ON="rxc=">
+      <Getter N="Boolean get_Multiline()" ON="sBc=" />
+      <Setter N="Void set_Multiline(Boolean value)" ON="sRc=" />
+    </Property>
+    <Method N="Void OnCreation()" />
+    <Method N="Void .ctor()" />
+    <Method N="Void ColorHook()" />
+    <Method N="Void PaintHook()" />
+    <Method N="Void OnBaseTextChanged(Object s, System.EventArgs e)" ON="sxc=" />
+    <Method N="Void OnBaseKeyDown(Object s, System.Windows.Forms.KeyEventArgs e)" ON="thc=" />
+    <Method N="Void OnResize(System.EventArgs e)" />
+    <Field N="_TextAlign" ON="hxc=" />
+    <Field N="_MaxLength" ON="iBc=" />
+    <Field N="_ReadOnly" ON="iRc=" />
+    <Field N="_UseSystemPasswordChar" ON="ihc=" />
+    <Field N="_Multiline" ON="ixc=" />
+    <Field N="Base" ON="jBc=" />
+    <Field N="C1" ON="jRc=" />
+    <Field N="P1" ON="jhc=" />
+    <Field N="P2" ON="jxc=" />
+  </Type>
+  <Type N="ExTraffic.GhostControlBox" ON="uBM=.uRc=">
+    <Method N="Void ColorHook()" />
+    <Method N="Void .ctor()" />
+    <Method N="Void OnMouseMove(System.Windows.Forms.MouseEventArgs e)" />
+    <Method N="Void OnClick(System.EventArgs e)" />
+    <Method N="Void PaintHook()" />
+    <Field N="X" ON="Pxc=" />
+    <Field N="BG" ON="uhc=" />
+    <Field N="Edge" ON="uxc=" />
+    <Field N="BEdge" ON="vBc=" />
+  </Type>
+  <Type N="ExTraffic.ThemeShare+AnimationDelegate" ON="uBM=.yBY=+vRc=">
+    <Method N="Void .ctor(Object TargetObject, IntPtr TargetMethod)" />
+    <Method N="System.IAsyncResult BeginInvoke(Boolean invalidate, System.AsyncCallback DelegateCallback, Object DelegateAsyncState)" />
+    <Method N="Void EndInvoke(System.IAsyncResult DelegateAsyncResult)" />
+    <Method N="Void Invoke(Boolean invalidate)" />
+  </Type>
+  <Type N="ExTraffic.PrecisionTimer+TimerDelegate" ON="uBM=.8BY=+vhc=">
+    <Method N="Void .ctor(Object TargetObject, IntPtr TargetMethod)" />
+    <Method N="System.IAsyncResult BeginInvoke(IntPtr r1, Boolean r2, System.AsyncCallback DelegateCallback, Object DelegateAsyncState)" />
+    <Method N="Void EndInvoke(System.IAsyncResult DelegateAsyncResult)" />
+    <Method N="Void Invoke(IntPtr r1, Boolean r2)" />
+  </Type>
+  <Type N="ExTraffic.GhostCheckbox+CheckedChangedEventHandler" ON="uBM=.PRc=+vxc=">
+    <Method N="Void .ctor(Object TargetObject, IntPtr TargetMethod)" />
+    <Method N="System.IAsyncResult BeginInvoke(Object sender, System.AsyncCallback DelegateCallback, Object DelegateAsyncState)" />
+    <Method N="Void EndInvoke(System.IAsyncResult DelegateAsyncResult)" />
+    <Method N="Void Invoke(Object sender)" />
+  </Type>
+  <Type N="ExTraffic.GhostRadiobutton+CheckedChangedEventHandler" ON="uBM=.URc=+vxc=">
+    <Method N="Void .ctor(Object TargetObject, IntPtr TargetMethod)" />
+    <Method N="System.IAsyncResult BeginInvoke(Object sender, System.AsyncCallback DelegateCallback, Object DelegateAsyncState)" />
+    <Method N="Void EndInvoke(System.IAsyncResult DelegateAsyncResult)" />
+    <Method N="Void Invoke(Object sender)" />
+  </Type>
+</Module>
+</CliSecure>
